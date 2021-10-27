@@ -28,7 +28,7 @@ import grayMatter from "gray-matter";
       } = grayMatter(file);
       index.push({
         slug: getSlugFromPathname(contentFilePaths[i]),
-        category: "blog",
+        category: "post",
         title,
         description,
         tags,
