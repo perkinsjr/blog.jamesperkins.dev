@@ -8,11 +8,17 @@ tags:
   - tailwind
   - css
 author: James Perkins
+image: https://res.cloudinary.com/dub20ptvt/image/upload/v1635377217/Tailwind_uryoth.jpg
 authorTwitter: james_r_perkins
 date: 2021-10-28
 ---
 
 When TailwindCSS hit the world, developers were brought to a world of utility classes. Allowing them to move swiftly and produce amazing looking content. I've always found Tailwind to be messy, hard to follow, and bloats code lines. This is fine if you spend a lot of time with Tailwind as with any language you learn the syntax, but I am always looking for an easy way to do something... Which is where Daisy UI comes in.
+
+### Prefer Video?
+
+[![DaisyUI Video ](https://img.youtube.com/vi/hM9fENyAquM/maxresdefault.jpg)](https://www.youtube.com/watch?v=hM9fENyAquM) 
+
 
 ## What is DaisyUI?
 
