@@ -30,7 +30,7 @@ export const SITE = {
     description: 'Learn To Code with James',
     url: 'https://jamesperkins.dev',
     githubUrl: 'https://github.com/perkinsjr/blog.jamesperkins.dev',
-    listDrafts: true
+    listDrafts: false
     // description ?
 }
 
