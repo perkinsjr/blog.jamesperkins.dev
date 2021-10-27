@@ -5,7 +5,7 @@ authorTwitter: james_r_perkins
 date: "2021-07-03"
 title: "Why I created Developers Hangout podcast."
 description: "Last month I created a new podcast / livestream called Developers Hangout which is a weekly livestreamed podcast where I hangout with guests and chat for 90 minutes. I thought now would be the time to how this ended up happening and why."
-hero_image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1625336633/WHY_I_LAUCHED_DEVE_HANG_ym8u8t.png"
+image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1625336633/WHY_I_LAUCHED_DEVE_HANG_ym8u8t.png"
 category: announcement
 tags:
   - podcast

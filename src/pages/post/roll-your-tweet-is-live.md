@@ -5,7 +5,7 @@ authorTwitter: james_r_perkins
 date: "2021-10-07"
 title: "Roll Your Tweet Is Live!"
 description: "Roll your Tweet my microsaas is now live!"
-hero_image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1633651322/roll_your_tweet_share_junohk.png"
+image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1633651322/roll_your_tweet_share_junohk.png"
 category: announcement
 tags:
   - saas
