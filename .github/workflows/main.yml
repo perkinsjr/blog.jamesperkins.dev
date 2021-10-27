@@ -25,5 +25,5 @@ jobs:
         uses: one-aalam/github-action-astro-publish-drafts@v0.1-beta
         with:
           github_token: $\{{ secrets.GITHUB_TOKEN }}
-          github_actor: one-aalam
-          github_repository: one-aalam/astro-ink
+          github_actor: perkinsjr
+          github_repository: perkinsjr/blog.jamesperkins.dev

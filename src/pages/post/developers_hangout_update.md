@@ -10,10 +10,12 @@ tags:
   - update
   - developers hangout
   - podcast
-description: The Developers Hangout podcast has been rocking and rolling for almost two
+description:
+  The Developers Hangout podcast has been rocking and rolling for almost two
   months. I've had some fantastic guests and have some even greater ones coming
   in the future.
 ---
+
 The Developers Hangout podcast has been rocking and rolling for almost two months. I've had some fantastic guests and have some even greater ones coming in the future.
 
 When I first started Developers Hangout podcast, I wanted it to be a live show that people could tune in to and watch. What I realized was this was not sustainable, as only a few of the thousands of developers in the world could be available at 3.30PM EST.

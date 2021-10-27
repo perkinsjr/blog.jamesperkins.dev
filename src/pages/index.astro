@@ -7,11 +7,12 @@ const title = 'Home'
 const description = 'Blog for James Perkins'
 
 const posts = Astro.fetchContent('./post/*.md')
+const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 ---
 <DefaultPageLayout content={{ title, description }} showPageHeader={false}>
-    <PostPreviewList posts={posts} />
+    <PostPreviewList posts={sortedPosts} />
     <div class="page__actions">
-        <a class="action__go-to-blog" href="/blog" title="All Posts">All Posts &rarr;</a>
+        <a class="action__go-to-blog" href="/post" title="All Posts">All Posts &rarr;</a>
     </div>
 </DefaultPageLayout>
 

@@ -1,4 +1,5 @@
 ---
+layout: $/layouts/post.astro
 author: James Perkins
 authorTwitter: james_r_perkins
 date: "2019-09-17"
@@ -6,9 +7,9 @@ title: "Pick a language and do something"
 description: "I’ve heard and seen a lot of “What language should I pick first?” Questions in my time as a developer. It’s an interesting question that I seem to have the opposite response to most."
 image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1618489783/pick-a-language_tpbwg4.png"
 category: tutorial
-tags: 
-- "coding" 
-- "tutorial"
+tags:
+  - coding
+  - tutorial
 ---
 
 I’ve heard and seen a lot of “What language should I pick first?” Questions in my time as a developer. It’s an interesting question that I seem to have the opposite response to most. Usually you here, learn Python as it’s syntax is simple to learn, or JavaScript because it is in demand and everyone wants to hire you. The answer is simple pick a language out of a hat and jump in.

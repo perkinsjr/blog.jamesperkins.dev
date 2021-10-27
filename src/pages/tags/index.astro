@@ -5,7 +5,7 @@ let title = 'All Tags'
 let description = 'Find all the tags'
 
 
-const allPosts = await Astro.fetchContent('../blog/*.md');
+const allPosts = await Astro.fetchContent('../post/*.md');
 const tags = [...new Set([].concat.apply([], allPosts.map(post => post.tags)))]
 ---
 

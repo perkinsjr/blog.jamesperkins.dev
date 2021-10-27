@@ -1,4 +1,5 @@
 ---
+layout: $/layouts/post.astro
 author: James Perkins
 authorTwitter: james_r_perkins
 date: "2021-05-07"
@@ -6,10 +7,10 @@ title: "NextJS + FaunaDB Crash Course"
 description: "Welcome to my latest blog post, which is a crash course on NextJS and Fauna, in this blog post I am going to show you how to Create a Database, Read from that database and finally update the collection."
 image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1618489775/faunadb_ff42sf.png"
 category: tutorial
-tags: 
-- "nextjs" 
-- "tutorial"
-- "faunadb"
+tags:
+  - nextjs
+  - tutorial
+  - faunadb
 ---
 
 Welcome to my latest blog post, which is a crash course on NextJS and Fauna, in this blog post I am going to show you how to Create a Database, Read from that database and finally update the collection.
@@ -161,16 +162,16 @@ Inside the try we are creating a constant called dbs which makes a request using
 
 ```javascript
 q.Map(
-        // iterate each item in result
-        q.Paginate(
-          // make paginatable
-          q.Match(
-            // query index
-            q.Index("all_customers") // specify source
-          )
-        ),
-        (ref) => q.Get(ref) // lookup each result by its reference
-      )
+  // iterate each item in result
+  q.Paginate(
+    // make paginatable
+    q.Match(
+      // query index
+      q.Index("all_customers") // specify source
+    )
+  ),
+  (ref) => q.Get(ref) // lookup each result by its reference
+);
 ```
 
 The Map returns a new array with the results of calling the lambda function on each item in array, or as I put it, iterates each item in the result. The Paginate function takes the Ref on the last line, and returns a page of results. The Match function finds the "search terms" provided to Match, which in our case is the index called ("all_customers").
@@ -463,7 +464,6 @@ export default function CustomerData({
     </Box>
   );
 }
-
 ```
 
 #### Using our new component
@@ -583,7 +583,7 @@ Lets tackle the serverless function first and then add our form and data needed.
 
 The newCustomer serverless function is going to take in the body of the request, which will contain our form data. It will then update the collection with the data, and return a 200 for a successful add and a 500 for anything else.
 
-Go ahead and create a new folder in your api directory called `newCustomer` and inside that folder create an  `index.js`, below is the starter code that looks exactly the same as your previous one:
+Go ahead and create a new folder in your api directory called `newCustomer` and inside that folder create an `index.js`, below is the starter code that looks exactly the same as your previous one:
 
 ```javascript
 const faunadb = require("faunadb");
