@@ -46,9 +46,6 @@ module.exports = {
       // primarySecondary: colors.rose[800],
       // primarySecondaryDark: colors.rose[500],
     },
-    fontFamily: {
-      sans: ["Fira Code", ...fontFamily.sans],
-    },
     extend: {
       typography: (theme) => ({
         DEFAULT: {

@@ -6,6 +6,6 @@
         isSearchVisible.set(true)
     }
 </script>
-<button on:click={showSearchDialog}>
+<button name="Search button" on:click={showSearchDialog}>
     <SearchIcon />
 </button>
