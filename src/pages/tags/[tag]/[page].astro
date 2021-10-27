@@ -10,6 +10,7 @@ let description = 'Posts by Tags'
 
 export async function getStaticPaths({ paginate }) {
   const allPosts = Astro.fetchContent('../../post/*.md')
+  console.log(allPosts);
   const allTags = new Set()
   allPosts.map(post => {
       post.tags && post.tags.map(tag => allTags.add(tag.toLowerCase()))

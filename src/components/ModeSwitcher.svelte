@@ -6,7 +6,7 @@
 
     const THEME_DARK: ThemeType =  'dark'
     const THEME_LIGHT: ThemeType =  'light'
-    let currTheme: ThemeType = THEME_DARK
+    let currTheme: ThemeType = THEME_LIGHT
 
 
     function toggleTheme() {
@@ -30,6 +30,3 @@
         theme.set(currTheme)
     })
 </script>
-<button on:click={toggleTheme}>
-    <slot theme={currTheme}/>
-</button>

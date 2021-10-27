@@ -1,4 +1,5 @@
 ---
+layout: $/layouts/post.astro
 author: James Perkins
 authorTwitter: james_r_perkins
 date: "2021-10-07"
@@ -6,12 +7,12 @@ title: "Roll Your Tweet Is Live!"
 description: "Roll your Tweet my microsaas is now live!"
 hero_image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1633651322/roll_your_tweet_share_junohk.png"
 category: announcement
-tags: 
-- "saas" 
-- "projects"
+tags:
+  - saas
+  - projects
 ---
 
-Today is the day! Roll Your Tweet is live! 
+Today is the day! Roll Your Tweet is live!
 
 ## What is Roll Your Tweet?
 
@@ -21,11 +22,9 @@ Roll your tweet is a SaaS that allows you to turn a twitter thread into a blog p
 
 1. Select Twitter thread or tweet from your page:
 
-
 ![Choose your tweet.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633651652741/A7QN9Fowp.png)
 
 2. Add any content that you want using our Markdown editor:
-
 
 ![Roll Your Tweet editor.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1633651689815/WlzAFrupM.png)
 

@@ -7,9 +7,9 @@ author: James Perkins
 authorTwitter: james_r_perkins
 category: tutorials
 tags:
-- NextJS
-- Features
-- Comments
+  - nextjs
+  - features
+  - comments
 description: Comments are important to a blog, people love to engage but I did not want to pay for a service, or invade my readers with ads or tracking.
 ---
 
@@ -22,10 +22,9 @@ I chose Utteranc which is a lightweight comments widget built on GitHub issues. 
 ### Why did I pick Utteranc?
 
 1. It's 100% open source
-2. No ads, no tracking 
+2. No ads, no tracking
 3. Git backed (Means I keep the comment data)
 4. Extremely lightweight
-
 
 ### How Did I implement this on NextJS?
 
@@ -34,30 +33,28 @@ I decided to go with a hook that is referenced in a component. I could of just i
 Below is the hook code:
 
 ```javascript
-
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 export const useUtterances = (commentNodeId) => {
-	useEffect(() => {
-                 const scriptParentNode = document.getElementById(commentNodeId);
-		if (!scriptParentNode) return;
-		const script = document.createElement('script');
-		script.src = 'https://utteranc.es/client.js';
-		script.async = true;
-		script.setAttribute('repo', 'REPO_NAME');
-		script.setAttribute('issue-term', 'pathname');
-		script.setAttribute('label', 'comment :speech_balloon:');
-		script.setAttribute('theme', 'github-light');
-		script.setAttribute('crossorigin', 'anonymous');
+  useEffect(() => {
+    const scriptParentNode = document.getElementById(commentNodeId);
+    if (!scriptParentNode) return;
+    const script = document.createElement("script");
+    script.src = "https://utteranc.es/client.js";
+    script.async = true;
+    script.setAttribute("repo", "REPO_NAME");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("label", "comment :speech_balloon:");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("crossorigin", "anonymous");
 
-		
-		scriptParentNode.appendChild(script);
+    scriptParentNode.appendChild(script);
 
-		return () => {
-			// cleanup - remove the older script with previous theme
-			scriptParentNode.removeChild(scriptParentNode.firstChild);
-		};
-	}, [commentNodeId]);
+    return () => {
+      // cleanup - remove the older script with previous theme
+      scriptParentNode.removeChild(scriptParentNode.firstChild);
+    };
+  }, [commentNodeId]);
 };
 ```
 
@@ -66,17 +63,16 @@ This creates a script that is async and fills in all the important pieces needed
 The component then takes the hook and then returns an div ready for comments:
 
 ```javascript
-import { useUtterances } from '../lib/useUtterances';
+import { useUtterances } from "../lib/useUtterances";
 
-const commentNodeId = 'comments';
+const commentNodeId = "comments";
 
 const Comments = () => {
-	useUtterances(commentNodeId);
-	return <div id={commentNodeId} />;
+  useUtterances(commentNodeId);
+  return <div id={commentNodeId} />;
 };
 
 export default Comments;
 ```
 
 Now I can reference it anywhere in my application and it will show up using `<Comments/>`
-

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jamesperkins.dev/404</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/admin</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/blog</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/contact</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/exit-admin</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/adding-comments-to-the-blog</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/create-content-to-solidify-your-knowledge</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/developers_hangout_update</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/devl_rel_what_do_we_do</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/embracing-typescript</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/force-reload-next-</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/i-treat-debugging-as-a-murder-mystery</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/nextjs-faunadb-crash-course</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/pick-a-language-and-do-something</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/Retrieve-your-last-10-youtube-videos</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/ssg-vs-srr</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/why-flag-parameters-suck</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/why-i-created-developers-hangout-podcast</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/why-I-removed-analytics-and-used-nextjs</loc>
+    </url>
+
+    <url>
+        <loc>https://jamesperkins.dev/post/you-dont-need-to-be-a-math-genius</loc>
+    </url>
+</urlset>

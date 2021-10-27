@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[James Perkins]]></title>
+        <description><![CDATA[James Perkins]]></description>
+        <link>https://jamesperkins.dev</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 04 Oct 2021 21:53:27 GMT</lastBuildDate>
+        <atom:link href="https://jamesperkins.dev/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Developers Hangout Podcast Update]]></title>
+            <description><![CDATA[The Developers Hangout podcast has been rocking and rolling for almost two months. I've had some fantastic guests and have some even greater ones coming in the future.
+
+When I first started Developers Hangout podcast, I wanted it to be a live show that people could tune in to and watch. What I realized was this was not sustainable, as only a few of the thousands of developers in the world could be available at 3.30PM EST.]]></description>
+            <link>https://jamesperkins.dev/post/developers_hangout_update</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/developers_hangout_update</guid>
+            <pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Adding Comments To My Blog]]></title>
+            <description><![CDATA[Comments are important to a blog, people love to engage but I did not want to pay for a service, or invade my readers with ads or tracking.]]></description>
+            <link>https://jamesperkins.dev/post/adding-comments-to-the-blog</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/adding-comments-to-the-blog</guid>
+            <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Create content to solidify your knowledge]]></title>
+            <description><![CDATA[Creating content on something you just learned such as a youtube video or a blog post is another way to solidify your knowledge. It allows for a greater understanding by teaching another about]]></description>
+            <link>https://jamesperkins.dev/post/create-content-to-solidify-your-knowledge</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/create-content-to-solidify-your-knowledge</guid>
+            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Developer Relations what do we do?]]></title>
+            <description><![CDATA[Developers relations / advocacy is a role that is a mix of Sales, Marketing, Developer and Educator. Our role at any company is too encourage developers to adopt a platform, but, more importantly in my opinion is making developers successful.
+]]></description>
+            <link>https://jamesperkins.dev/post/devl_rel_what_do_we_do</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/devl_rel_what_do_we_do</guid>
+            <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why I embraced Typescript for development.]]></title>
+            <description><![CDATA[I've been very much avoiding using Typescript for quite a while, not because I don't believe in statically typed software, I spent a decade in production Java and was a certified PERL developer. I just never found a reason to use it, being a content creator and Jamstack developer for the past 3 years I have just been using JavaScript without much issue. If I ended up working on a project with typescript I just understood the system coded and moved on. ]]></description>
+            <link>https://jamesperkins.dev/post/embracing-typescript</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/embracing-typescript</guid>
+            <pubDate>Sat, 26 Jun 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[I treat debugging as a murder mystery]]></title>
+            <description><![CDATA[I have spent so much of my career debugging code, whether its Production code in a large scale enterprise applications or in my own personal code. Every time I start debugging I treat it as a murder mystery. ]]></description>
+            <link>https://jamesperkins.dev/post/i-treat-debugging-as-a-murder-mystery</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/i-treat-debugging-as-a-murder-mystery</guid>
+            <pubDate>Fri, 07 May 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Force Reload Next.js Pages]]></title>
+            <description><![CDATA[Sometimes you need to just force reload a page in Next.js, lets look at a couple ways you can do this! 
+
+]]></description>
+            <link>https://jamesperkins.dev/post/force-reload-next-pages</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/force-reload-next-pages</guid>
+            <pubDate>Mon, 04 Oct 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Retrieve your last 10 YouTube Videos]]></title>
+            <description><![CDATA[I will show how to retrieve the last 10 videos from YouTube, so people never have to leave your digital garden. I have been retrieving the data from YouTube for a while, I have a live stat update on my site so you can see the latest subscriber and view count]]></description>
+            <link>https://jamesperkins.dev/post/Retrieve-your-last-10-youtube-videos</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/Retrieve-your-last-10-youtube-videos</guid>
+            <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why I created Developers Hangout podcast.]]></title>
+            <description><![CDATA[Last month I created a new podcast / livestream called Developers Hangout which is a weekly livestreamed podcast where I hangout with guests and chat for 90 minutes. I thought now would be the time to how this ended up happening and why.]]></description>
+            <link>https://jamesperkins.dev/post/why-i-created-developers-hangout-podcast</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/why-i-created-developers-hangout-podcast</guid>
+            <pubDate>Sat, 03 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why I removed analytics and and ended up with NextJs]]></title>
+            <description><![CDATA[I’ve heard and seen a lot of “What language should I pick first?” Questions in my time as a developer. It’s an interesting question that I seem to have the opposite response to most.]]></description>
+            <link>https://jamesperkins.dev/post/pick-a-language-and-do-something</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/pick-a-language-and-do-something</guid>
+            <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SSG VS SSR]]></title>
+            <description><![CDATA[The words SSG and SSR get tossed about so frequently in the JAMStack world, today we are going to look at what they mean and what they do]]></description>
+            <link>https://jamesperkins.dev/post/ssg-vs-srr</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/ssg-vs-srr</guid>
+            <pubDate>Thu, 05 Aug 2021 04:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why flag parameters suck]]></title>
+            <description><![CDATA[When coding people tend to use flag parameters to drive their functions, without considering that they absolutely suck! They cause more trouble when a you write complex functions or a codebase that is large in nature, because the readability is just terrible let me explain.]]></description>
+            <link>https://jamesperkins.dev/post/why-flag-parameters-suck</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/why-flag-parameters-suck</guid>
+            <pubDate>Sat, 17 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why I removed analytics and and ended up with NextJs]]></title>
+            <description><![CDATA[On a early Saturday morning of my first day of Staycation I decided to fix my blog performance and usability.I first decided its time to get rid of analytics, advertisements and other shit that no one really needs]]></description>
+            <link>https://jamesperkins.dev/post/why-I-removed-analytics-and-used-nextjs</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/why-I-removed-analytics-and-used-nextjs</guid>
+            <pubDate>Fri, 03 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why you don't need to be a mathematics genius to be a developer.]]></title>
+            <description><![CDATA[When you first start thinking about becoming a developer, one of the things you might hear is you need to be a math(s) wizz. I am here to tell you that a small number of developers need the mathematics outside of algebra.]]></description>
+            <link>https://jamesperkins.dev/post/you-dont-need-to-be-a-math-genius</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/you-dont-need-to-be-a-math-genius</guid>
+            <pubDate>Mon, 27 Jul 2020 04:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NextJS + FaunaDB Crash Course]]></title>
+            <description><![CDATA[Welcome to my latest blog post, which is a crash course on NextJS and Fauna, in this blog post I am going to show you how to Create a Database, Read from that database and finally update the collection.]]></description>
+            <link>https://jamesperkins.dev/post/nextjs-faunadb-crash-course</link>
+            <guid isPermaLink="true">https://jamesperkins.dev/post/nextjs-faunadb-crash-course</guid>
+            <pubDate>Thu, 15 Oct 2020 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
