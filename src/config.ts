@@ -6,7 +6,7 @@ export const NAV_ITEMS: NavItems = {
         title: 'home'
     },
     blog: {
-        path: '/blog',
+        path: '/post',
         title: 'blog'
     },
     tags: {
@@ -25,11 +25,11 @@ export const NAV_ITEMS: NavItems = {
 
 export const SITE = {
     // Your site's detail?
-    name: 'Ink',
-    title: 'Astro - Ink',
-    description: 'Crisp, minimal, personal blog theme for Astro',
-    url: 'https://astro-ink.vercel.app',
-    githubUrl: 'https://github.com/one-aalam/astro-ink',
+    name: 'James Perkins',
+    title: 'James Perkins Blog',
+    description: 'Learn To Code with James',
+    url: 'https://jamesperkins.dev',
+    githubUrl: 'https://github.com/perkinsjr/blog.jamesperkins.dev',
     listDrafts: true
     // description ?
 }

@@ -5,7 +5,7 @@ import Paginator from '$/components/Paginator.astro'
 import { SITE, PAGE_SIZE } from '$/config'
 
 let title = 'Blog'
-let description = 'All the articles posted so far...'
+let description = 'All blog posts.'
 
 export async function getStaticPaths({ paginate, rss }) {
   const allPosts = Astro.fetchContent('./*.md');

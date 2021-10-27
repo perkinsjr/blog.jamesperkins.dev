@@ -6,10 +6,10 @@ import PostPreviewList from '$/components/PostPreviewList.astro'
 import Paginator from '$/components/Paginator.astro'
 
 let title = 'Posts By Tags'
-let description = 'All the articles posted so far...'
+let description = 'Posts by Tags'
 
 export async function getStaticPaths({ paginate }) {
-  const allPosts = Astro.fetchContent('../../blog/*.md')
+  const allPosts = Astro.fetchContent('../../post/*.md')
   const allTags = new Set()
   allPosts.map(post => {
       post.tags && post.tags.map(tag => allTags.add(tag.toLowerCase()))
