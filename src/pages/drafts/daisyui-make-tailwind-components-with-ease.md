@@ -9,9 +9,10 @@ tags:
   - css
 author: James Perkins
 authorTwitter: james_r_perkins
-date: 2021-10-28T14:00:35.686Z
+date: 2021-10-28
 ---
-When TailwindCSS hit the world, developers were brought to a world of utility classes.  Allowing them to move swiftly and produce amazing looking content. I've always found Tailwind to be messy, hard to follow, and bloats code lines. This is fine if you spend a lot of time with Tailwind as with any language you learn the syntax, but I am always looking for an easy way to do something... Which is where Daisy UI comes in.
+
+When TailwindCSS hit the world, developers were brought to a world of utility classes. Allowing them to move swiftly and produce amazing looking content. I've always found Tailwind to be messy, hard to follow, and bloats code lines. This is fine if you spend a lot of time with Tailwind as with any language you learn the syntax, but I am always looking for an easy way to do something... Which is where Daisy UI comes in.
 
 ## What is DaisyUI?
 
@@ -22,7 +23,7 @@ DaisyUI is a Tailwind plugin that allows you to create Clean HTML with component
 DaisyUI is a tailwind plugin, so it requires minimal setup. First step, make sure you have a project setup with tailwindCSS. Then install DaisyUI
 
 ```shell
-npm i daisyui 
+npm i daisyui
 ```
 
 Then the final step is to register DaisyUI as a plugin in your `tailwindcss.config`
@@ -41,20 +42,23 @@ Now you are ready to start using it.
 
 ## DaisyUI vs Utility Classes
 
-### A button 
+### A button
 
 What makes DaisyUI so appealing is the ability to cut down the amount of classes added to an element for example a button:\
 \
-In Tailwind to create a link that is a rounded button that is purple it would look similar to this : 
+In Tailwind to create a link that is a rounded button that is purple it would look similar to this :
 
 ```html
-<a class="inline-block px-4 py-3
+<a
+  class="inline-block px-4 py-3
     text-sm font-semibold text-center
     text-white uppercase transition
     duration-200 ease-in-out
     bg-indigo-100 rounded-md
     cursor-pointer
-    hover:bg-indigo-600">Button</a>
+    hover:bg-indigo-600"
+  >Button</a
+>
 ```
 
 Which is a lot for a button, sure you could make this into a reusable component but if someone came along and read this there is a lot to read through before fully comprehending what is happening. \
@@ -63,10 +67,9 @@ In DaisyUI you can set a link as a rounded button with 5% of the code used above
 
 ```javascript
 <a class="btn btn-primary">Button</a>
-
 ```
 
-### Toggle Switches 
+### Toggle Switches
 
 If you wanted a toggle switch in Tailwind you would have to write something similar:
 
