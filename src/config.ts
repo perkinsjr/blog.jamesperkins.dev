@@ -17,6 +17,10 @@ export const NAV_ITEMS: NavItems = {
         path: '/media',
         title: 'media'
     },
+    podcast: {
+        path: 'https://developershangoutpodcast.com/',
+        title: 'My Podcast'
+    },
     about: {
         path: '/about',
         title: 'about'
