@@ -1,10 +1,26 @@
 [
     {
+        "title": "DaisyUI : Worth a try or skip on by?",
+        "description": "In this video, I check out DaisyUI a component lib for TailwindCSS that makes creating content quicker, cleaner and easier to read.",
+        "url": "https://youtu.be/hM9fENyAquM",
+        "host": "James Perkins",
+        "participants":"",
+        "date": "2021-10-28"
+    },
+    {
         "title": "Build Your Own Ecommerce Site using Snipcart and Fauna",
         "description": "Build Your Own Ecommerce Site using Next.js, Snipcart and Fauna. By the end you will have a fully working store",
         "url": "https://youtu.be/2rlpVC2SX7I",
         "host": "James Perkins",
         "participants":"",
         "date": "2021-10-21"
+    },
+    {
+        "title": "Developers Hangout Podcast - Jesse Hall",
+        "description": "In this weeks episode I sit down and sit down with Jesse Hall aka CodeStackr!",
+        "url": "https://developershangoutpodcast.com/episodes/jesse-codestackr-hall",
+        "host": "James Perkins",
+        "participants":"Jesse Hall",
+        "date": "2021-10-01"
     }
 ]
