@@ -1,17 +1,24 @@
-name: Release Posts
+name: Merge Schedule
 on:
   pull_request:
     types:
       - opened
       - edited
+      - synchronize
   schedule:
-    - cron: 0 8 * * *
+    - cron: 0 * * * *
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
-      - uses: gr2m/merge-schedule-action@v1.x
+      - uses: gr2m/merge-schedule-action@v1
+        with:
+          # Merge method to use. Possible values are merge, squash or
+          # rebase. Default is merge.
+          merge_method: squash
+          #  Time zone to use. Default is UTC.
+          time_zone: "America/Los_Angeles"
         env:
-          GITHUB_TOKEN: $
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
