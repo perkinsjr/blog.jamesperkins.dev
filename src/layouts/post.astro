@@ -7,7 +7,7 @@ import Prose from '$/components/Prose.astro'
 const { content } = Astro.props
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dracula">
     <head>
         <BaseHead title={ content.title ? `${ SITE.title } | ${content.title}` : SITE.title } description={ content.description } image={content.image}/>
     </head>
@@ -22,7 +22,7 @@ const { content } = Astro.props
                 <span class="post__date">{ new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(content.date))}</span>
             </h5>
         </div>
-        <!--<img src={content.image} alt={content.title} />-->
+        <img src={content.image} alt={content.title} />
         <Prose>
             <slot />
         </Prose>
@@ -33,21 +33,12 @@ const { content } = Astro.props
         @apply py-4 mb-1
     }
     .post__title {
-        @apply text-5xl font-extrabold text-primary 
-    }
-    .post__desc {
-        @apply text-gray-500 dark:text-gray-100
+        @apply text-5xl font-extrabold
     }
     .post__author {
-        @apply no-underline dark:text-white hover:text-primary
-    }
-    .post__date {
-        @apply text-gray-700
+        @apply no-underline
     }
     .post__tags {
         @apply inline-flex gap-2
-    }
-    .post__tag {
-        @apply text-gray-700 hover:text-primary 
     }
 </style>

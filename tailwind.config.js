@@ -3,7 +3,6 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
-  darkMode: "class",
   purge: ["./public/**/*.html", "./src/**/*.{astro,js,ts}"],
   plugins: [
     require("@tailwindcss/typography"),

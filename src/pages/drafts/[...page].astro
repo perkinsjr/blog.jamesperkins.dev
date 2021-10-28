@@ -20,7 +20,7 @@ const { page } = Astro.props
 ---
 <DefaultPageLayout content={{ title, description }}>
     {
-        (SITE.listDrafts) ? <PostDraftPreviewList posts={page.data} /> : (<p class="text-gray-700 dark:text-gray-100">Looks like you have landed on a unpublished posts page. Please find all the published posts <a href="/post">here</a>!</p>)
+        (SITE.listDrafts) ? <PostDraftPreviewList posts={page.data} /> : (<p class="text-gray-700 ">Looks like you have landed on a unpublished posts page. Please find all the published posts <a href="/post">here</a>!</p>)
     }
     <Paginator page={page} />
 </DefaultPageLayout>
