@@ -1,29 +1,19 @@
-
-name: CI
-
-# Controls when the workflow will run
+name: Update Posts
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: 13 10 * * *
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    branches:
+      - posts
 jobs:
-  publish-drafts:
+  updateAuthors:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: SSG Publish Drafts
-        # You may pin to the exact commit or the version.
-        uses: one-aalam/github-action-astro-publish-drafts@v0.1-beta
         with:
-          github_token: $\{{ secrets.GITHUB_TOKEN }}
-          github_actor: perkinsjr
-          github_repository: perkinsjr/blog.jamesperkins.dev
+          fetch-depth: 0
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: New Blog Post
+          title: Adding new blog post PR
+          body: Add the blog post to the queue
+          branch: main
