@@ -22,7 +22,6 @@ const { content } = Astro.props
                 <span class="post__date">{ new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(content.date))}</span>
             </h5>
         </div>
-        <img src={content.image} alt={content.title} />
         <Prose>
             <slot />
         </Prose>
