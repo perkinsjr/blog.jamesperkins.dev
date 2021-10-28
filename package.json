@@ -19,5 +19,8 @@
     "lunr": "^2.3.9",
     "tailwindcss": "^2.1.4",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "daisyui": "^1.16.0"
   }
 }
