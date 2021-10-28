@@ -10,7 +10,6 @@ export async function getStaticPaths({ }) {
   })
 
   return Array.from(allTags).map((tag) => {
-    const test = allPosts.filter((post) => console.log(post.tags))
     const filteredPosts = allPosts.filter((post) => post.tags.includes(tag))
     return {
       params: { tag },
