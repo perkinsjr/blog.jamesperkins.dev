@@ -40,7 +40,7 @@
         <meta property="og:description" content={description} />
     }
     {image &&
-        <meta property="og:image" content={image} />
+        <meta property="og:image" content={image || "/android-chrome-512x512.png"} />
     }
 
     <!-- Twitter -->
@@ -53,7 +53,7 @@
         <meta property="twitter:description" content={description} />
     }
     {image &&
-        <meta property="twitter:image" content={image} />
+        <meta property="twitter:image" content={image || "/android-chrome-512x512.png"} />
     }
 
     <!-- Link to the global style, or the file that imports TailwindCSS constructs -->
