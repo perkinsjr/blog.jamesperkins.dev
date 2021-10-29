@@ -9,7 +9,6 @@
     }
 
     const { title = SITE.title , description, permalink, image } = Astro.props as Props
-    const backup_image = "/android-chrome-512x512.png"
 ---
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,9 +39,9 @@
     {description &&
         <meta property="og:description" content={description} />
     }
-
-        <meta property="og:image" content={image || "/android-chrome-512x512.png"} />
-    
+    {image &&
+        <meta property="og:image" content={image} />
+    }
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary" />
@@ -53,8 +52,9 @@
     {description &&
         <meta property="twitter:description" content={description} />
     }
-    <meta property="twitter:image" content={image || "/android-chrome-512x512.png"} />
-    
+    {image &&
+    <meta property="twitter:image" content={image} />
+    }
 
     <!-- Link to the global style, or the file that imports TailwindCSS constructs -->
     <link rel="stylesheet" href="/style/global.css">
