@@ -11,6 +11,7 @@ description:
 tags:
   - tutorial
   - nextjs
+  
 ---
 
 Next.js is probably my favorite framework... Although Astro is slowly creeping into the picture. I create 100s of projects a year using Next.js and set them up the same way every single time. 
