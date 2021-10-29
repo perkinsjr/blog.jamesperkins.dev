@@ -7,6 +7,7 @@ tags:
   - nextjs
 author: James Perkins
 authorTwitter: james_r_perkins
+image: https://res.cloudinary.com/dub20ptvt/image/upload/v1618489779/me_n7quph.jpg
 date: 2021-10-29
 ---
 
