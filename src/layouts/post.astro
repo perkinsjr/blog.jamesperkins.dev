@@ -14,7 +14,7 @@ const { content } = Astro.props
     <MainLayout>
         <div class="post__header">
             <div class="post__tags">
-                { content.tags.length > 0 && content.tags.map(tag => <a class="post__tag" href={`/tags/${tag}`} title={tag}>{tag}</a>) }
+                { content.tags.length > 0 && content.tags.map(tag => <a class="post__tag btn" href={`/tags/${tag}`} title={tag}>{tag}</a>) }
             </div>
             <h1 class="post__title">{ content.title }</h1>
             <h5 class="post__desc">
@@ -29,15 +29,15 @@ const { content } = Astro.props
 </html>
 <style>
     .post__header {
-        @apply py-4 mb-1
+        @apply py-4 mb-2 
     }
     .post__title {
-        @apply text-5xl font-extrabold
+        @apply text-5xl font-extrabold mt-2 text-primary mb-2
     }
     .post__author {
-        @apply no-underline
+        @apply no-underline mt-2
     }
     .post__tags {
-        @apply inline-flex gap-2
+        @apply inline-flex gap-2 mt-2
     }
 </style>
