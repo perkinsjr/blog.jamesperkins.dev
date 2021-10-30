@@ -17,10 +17,18 @@
     },
     {
         "title": "Developers Hangout Podcast - Jesse Hall",
-        "description": "In this weeks episode I sit down and sit down with Jesse Hall aka CodeStackr!",
+        "description": "In this weeks episode I sit down with Jesse Hall aka CodeStackr!",
         "url": "https://developershangoutpodcast.com/episodes/jesse-codestackr-hall",
         "host": "James Perkins",
         "participants":"",
         "date": "2021-10-01"
+    },
+    {
+        "title": "Developers Hangout Podcast - Mike Cavaliere ",
+        "description": "In this weeks episode I sit down and sit down with Mike Cavaliere. We break down writing books, brain hacking the Jamstack and much more! !",
+        "url": "https://developers-hangout.simplecast.com/episodes/mike-cavaliere",
+        "host": "James Perkins",
+        "participants":"",
+        "date": "2021-10-29"
     }
 ]
