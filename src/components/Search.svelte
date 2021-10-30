@@ -73,7 +73,7 @@
 </div>
 <style>
     .search {
-        @apply w-full relative bg-primary  p-8  rounded-md shadow-lg;
+        @apply w-full relative bg-neutral p-8  rounded-md shadow-lg;
     }
     input {
         @apply w-full px-4 py-2 pl-10 text-xl font-semibold text-gray-600 border-0 shadow-inner rounded-md bg-gray-100 placeholder-purple-500;
