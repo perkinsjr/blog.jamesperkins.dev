@@ -4,9 +4,8 @@ title: DaisyUI - Make Tailwind components with ease!
 description: "DaisyUI allows you to bring the power of tailwind into clean
   concise components. "
 tags:
-  - tutorial
   - tailwind
-  - css
+category: tutorial
 author: James Perkins
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1635377217/Tailwind_uryoth.jpg
 authorTwitter: james_r_perkins

@@ -5,10 +5,9 @@ date: 2021-07-17
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1628202034/Dev_Rel_What_do_we_do_zgjkqq.png
 author: James Perkins
 authorTwitter: james_r_perkins
-category: tutorials
+category: thoughts
 tags:
   - thoughts
-  - devrel
 description: Developers relations / advocacy is a role that is a mix of Sales, Marketing, Developer and Educator. Our role at any company is too encourage developers to adopt a platform, but, more importantly in my opinion is making developers successful.
 ---
 

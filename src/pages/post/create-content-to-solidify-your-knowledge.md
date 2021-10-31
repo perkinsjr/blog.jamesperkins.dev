@@ -7,7 +7,7 @@ author: James Perkins
 authorTwitter: james_r_perkins
 category: thoughts
 tags:
-  - opinions
+  - thoughts
 description: Creating content on something you just learned such as a youtube video or a blog post is another way to solidify your knowledge.
 ---
 

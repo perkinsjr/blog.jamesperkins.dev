@@ -2,6 +2,7 @@
 layout: $/layouts/post.astro
 title: How to open a link in a new tab
 description: "Next Link has made links easier for developers, but what if you need to open a external link in a new tab?"
+category: tutorial
 tags:
   - tutorial
   - nextjs

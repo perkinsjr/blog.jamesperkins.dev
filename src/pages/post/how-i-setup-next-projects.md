@@ -9,7 +9,6 @@ catgory: tutorial
 description:
   I create 100s of Next projects a year, and I have a particular way of setting everything up. It might be for you, it might not.
 tags:
-  - tutorial
   - nextjs
   
 ---

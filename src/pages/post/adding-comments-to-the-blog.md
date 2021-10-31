@@ -8,8 +8,6 @@ authorTwitter: james_r_perkins
 category: tutorials
 tags:
   - nextjs
-  - features
-  - comments
 description: Comments are important to a blog, people love to engage but I did not want to pay for a service, or invade my readers with ads or tracking.
 ---
 

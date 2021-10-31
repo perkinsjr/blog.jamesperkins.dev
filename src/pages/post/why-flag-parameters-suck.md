@@ -9,8 +9,6 @@ image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1618778953/feature_fl
 category: thoughts
 tags:
   - javascript
-  - thoughts
-  - tips
 ---
 
 When coding people tend to use flag parameters to drive their functions, without considering that they absolutely suck! They cause more trouble when a you write complex functions or a codebase that is large in nature, because the readability is just terrible let me explain.
