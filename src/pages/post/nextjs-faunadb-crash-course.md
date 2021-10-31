@@ -9,8 +9,6 @@ image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1618489775/faunadb_ff
 category: tutorial
 tags:
   - nextjs
-  - tutorial
-  - faunadb
 ---
 
 Welcome to my latest blog post, which is a crash course on NextJS and Fauna, in this blog post I am going to show you how to Create a Database, Read from that database and finally update the collection.

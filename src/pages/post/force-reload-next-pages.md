@@ -10,7 +10,6 @@ description:
   couple ways you can do this!
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1633284008/force-page-reload_rqi48d.webp
 tags:
-  - tutorial
   - nextjs
 ---
 

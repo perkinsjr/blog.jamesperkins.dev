@@ -8,8 +8,6 @@ title: "Why I embraced Typescript for development."
 description: "I've been very much avoiding using Typescript for quite a while, not because I don't believe in statically typed software, I spent a decade in production Java and was a certified PERL developer. I just never found a reason to use it, being a content creator and Jamstack developer for the past 3 years I have just been using JavaScript without much issue. If I ended up working on a project with typescript I just understood the system coded and moved on. "
 image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1624743050/Embrace_Typescript_ly0g9c.png"
 tags:
-  - thoughts
-  - tutorial
   - typescript
 ---
 

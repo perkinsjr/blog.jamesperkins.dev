@@ -10,8 +10,6 @@ description:
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1628027219/ssr-versus-ssg-final_xmmfwq.png
 category: tutorial
 tags:
-  - ssg
-  - ssr
   - nextjs
 ---
 

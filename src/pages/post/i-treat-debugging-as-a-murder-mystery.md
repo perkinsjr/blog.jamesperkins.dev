@@ -9,8 +9,6 @@ image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1620501992/murder-mys
 category: tutorial
 tags:
   - debugging
-  - tutorial
-  - thoughts
 ---
 
 I have spent so much of my career debugging code, whether its Production code in a large scale enterprise applications or in my own personal code. Every time I start debugging I treat it as a murder mystery. I follow the same 6 steps to almost all of my debugging as it allows maximum throughput for me.

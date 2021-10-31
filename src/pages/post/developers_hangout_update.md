@@ -7,9 +7,7 @@ author: James Perkins
 authorTwitter: james_r_perkins
 category: thoughts
 tags:
-  - update
   - developers hangout
-  - podcast
 description:
   The Developers Hangout podcast has been rocking and rolling for almost two
   months. I've had some fantastic guests and have some even greater ones coming

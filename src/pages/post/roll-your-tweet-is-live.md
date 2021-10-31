@@ -9,7 +9,6 @@ image: "https://res.cloudinary.com/dub20ptvt/image/upload/v1633651322/roll_your_
 category: announcement
 tags:
   - saas
-  - projects
 ---
 
 Today is the day! Roll Your Tweet is live!
