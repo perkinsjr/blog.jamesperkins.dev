@@ -8,7 +8,7 @@ tags:
 author: James Perkins
 authorTwitter: james_r_perkins
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1618489779/me_n7quph.jpg
-date: 2021-11-02
+date: 2021-11-01
 ---
 
 Before we get started on my experience I want to make a few thnigs clear: 
