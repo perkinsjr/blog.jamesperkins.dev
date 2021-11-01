@@ -10,6 +10,7 @@ description:
 I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I have automated this using Session and AppleScript, to level up my productivity
 tags:
   - productivity
+  
 ---
 
 I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube.
