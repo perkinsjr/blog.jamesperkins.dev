@@ -3,7 +3,6 @@ layout: $/layouts/post.astro
 title: How to automate your PRs
 description: "When using static sites like Next, Hugo or Astro sometimes you want to use a seperate branch and then deploy it at a particular time. I have built a few automated workflows so here is how"
 tags:
-  - tutorial
   - devops
 author: James Perkins
 authorTwitter: james_r_perkins
