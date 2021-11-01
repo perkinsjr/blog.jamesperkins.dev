@@ -3,16 +3,15 @@ layout: $/layouts/post.astro
 author: James Perkins
 authorTwitter: james_r_perkins
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1618489779/me_n7quph.jpg
-date: 2021-01-02
-title: How I automate my productivity using Session + AppleScript
+date: 2021-11-02
+title: How I automate Productivity using Session and ActionScript
 catgory: tutorial
 description:
-I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I have automated this using Session and AppleScript, to level up my productivity
+  I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I use Session and ActionScript to automate this.
 tags:
   - productivity
   
 ---
-
 I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube.
 
 Here is where Session comes to save the day! I have been using Session since I saw a tweet from Chris where he stated he was a paying customer. So I dig in and find this Indie Hacker built product that allows you to use the Pomodoro tracking with analytics. But it is so much more than that block applications or websites, put on Do not Disturb, and be mindful about each session block.
@@ -95,4 +94,3 @@ do shell script "defaults write com.apple.controlcenter 'NSStatusItem Visible Do
 end if
 ```
 That’s how I automate my tasks and keep on track! Hope you enjoyed, feel free to modify the ActioNScripts as needed.
-
