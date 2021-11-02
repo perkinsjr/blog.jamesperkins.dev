@@ -1,5 +1,10 @@
+---
+import Comments from "./Comments.svelte"
+---
+
 <article class="prose">
     <slot />
+     <Comments client:load/>
 </article>
 
 <style>
