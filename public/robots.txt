@@ -1,4 +1,3 @@
-User-agent: *
-Disallow: /drafts/
-Disallow: /admin/
+User-agent: * 
+Disallow:
 Sitemap: https://jamesperkins.dev/sitemap.xml
