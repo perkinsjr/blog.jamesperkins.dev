@@ -7,7 +7,7 @@ date: 2021-11-02
 title: How I automate Productivity using Session and ActionScript
 catgory: tutorial
 description:
-  I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I use Session and ActionScript to automate this.
+  I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I use Session and AppleScript to automate this.
 tags:
   - productivity
   
@@ -93,4 +93,4 @@ do shell script "defaults write com.apple.controlcenter 'NSStatusItem Visible Do
 
 end if
 ```
-That’s how I automate my tasks and keep on track! Hope you enjoyed, feel free to modify the ActioNScripts as needed.
+That’s how I automate my tasks and keep on track! Hope you enjoyed, feel free to modify the AppleScript as needed.
