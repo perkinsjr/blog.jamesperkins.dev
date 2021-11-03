@@ -6,7 +6,7 @@ onMount(() => {
     s.setAttribute('repo',"perkinsjr/jamesperkins_dev_comments")
     s.setAttribute('issue-term',"pathname")
     s.setAttribute('label',"✨💬")
-    s.setAttribute('theme',"preferred-color-scheme")
+    s.setAttribute('theme',"github-dark")
     s.setAttribute('crossorigin',"anonymous")
     s.src = 'https://utteranc.es/client.js'
     tag.parentNode.insertBefore(s, tag)
