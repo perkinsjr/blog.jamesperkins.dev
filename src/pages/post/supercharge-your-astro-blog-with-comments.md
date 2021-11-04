@@ -13,7 +13,7 @@ tags:
   - svelte
  
 ---
-# Adding Open Source comments to Astro blogs
+
 
 Astro is a powerful, it allows you to ship less JavaScript which means fast sites. One thing I noticed is a lot of Astro blogs don't seem to have comments, so lets fix that!
 
