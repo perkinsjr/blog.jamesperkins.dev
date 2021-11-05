@@ -3,7 +3,7 @@ layout: $/layouts/post.astro
 author: James Perkins
 authorTwitter: james_r_perkins
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1618489779/me_n7quph.jpg
-date: 2021-11-06
+date: 2021-11-05
 title: Should you recycle content
 catgory: thoughts
 description:
