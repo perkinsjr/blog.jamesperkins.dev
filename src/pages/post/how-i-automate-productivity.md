@@ -4,7 +4,7 @@ author: James Perkins
 authorTwitter: james_r_perkins
 image: https://res.cloudinary.com/dub20ptvt/image/upload/v1618489779/me_n7quph.jpg
 date: 2021-11-02
-title: How I automate Productivity using Session and ActionScript
+title: How I automate Productivity using Session and AppleScript
 catgory: tutorial
 description:
   I have to focus on important tasks throughout the day and I find I can get distracted easily, as a YouTube and Dev Advocate there are plenty of excuses to open Twitter, TikTok or YouTube. I use Session and AppleScript to automate this.
